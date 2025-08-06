@@ -1,0 +1,97 @@
+/* Container */
+.wrap {
+  max-width: 900px;
+  margin-top: 30px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Heading */
+.wrap h1 {
+  margin-bottom: 25px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Slide List */
+#motion-slider-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.motion-slide-item {
+  display: flex;
+  align-items: center;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  gap: 15px;
+  cursor: move;
+}
+
+.motion-slide-item img {
+  width: 90px;
+  height: 60px;
+  object-fit: cover;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.motion-slide-item input.motion-title {
+  flex: 1;
+  padding: 8px 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Remove Button */
+.motion-slide-item .remove-slide {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.motion-slide-item .remove-slide:hover {
+  background-color: #c0392b;
+}
+
+/* Add + Save buttons */
+#add-slide,
+#save-slides {
+  margin-top: 20px;
+  margin-right: 10px;
+  padding: 8px 14px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#add-slide {
+  background-color: #0073aa;
+  border: none;
+  color: #fff;
+}
+
+#add-slide:hover {
+  background-color: #005177;
+}
+
+#save-slides {
+  background-color: #28a745;
+  border: none;
+  color: #fff;
+}
+
+#save-slides:hover {
+  background-color: #218838;
+}
